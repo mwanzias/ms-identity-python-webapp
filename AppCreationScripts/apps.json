@@ -1,0 +1,21 @@
+{
+    "Sample": {
+      "RepositoryUrl": "https://github.com/Azure-Samples/ms-identity-python-webapp",
+      "Title": "Integrating Microsoft Identity Platform with a Python web application",
+      "Level": 300
+    },
+    "AppRegistrations": [
+        {
+            "codeConfigurations": [
+                {
+                    "settingFile":  "\\..\\.env",
+                    "replaceTokens": {
+                        "appId": "<client id>",
+                        "clientSecret": "<client secret>",
+                        "authority": "<your authority url>"
+                    }
+                }
+            ]
+        }
+    ]
+}
